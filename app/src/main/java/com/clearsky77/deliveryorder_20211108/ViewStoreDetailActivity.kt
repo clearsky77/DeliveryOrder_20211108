@@ -18,7 +18,11 @@ class ViewStoreDetailActivity : AppCompatActivity() {
     }
 
     fun setupEvents() {
+        btnCall.setOnClickListener {
 
+
+
+        }
     }
 
     fun setValues() {
