@@ -23,5 +23,7 @@ class MainActivity : AppCompatActivity() {
     private fun setValues() {
         mvpa = MainViewPagerAdapter(supportFragmentManager)
         mainViewPager.adapter = mvpa
+
+        mainTapLayout.setupWithViewPager(mainViewPager)
     }
 }
