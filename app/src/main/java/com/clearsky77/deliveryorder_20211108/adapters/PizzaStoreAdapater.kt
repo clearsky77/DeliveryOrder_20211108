@@ -22,6 +22,8 @@ class PizzaStoreAdapater(
         }
         val row = tempRow!!
 
+        val data = mList[position]
+
         return row
 
 
