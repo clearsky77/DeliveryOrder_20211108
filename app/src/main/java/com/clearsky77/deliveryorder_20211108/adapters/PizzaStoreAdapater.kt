@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 import com.clearsky77.deliveryorder_20211108.R
 import com.clearsky77.deliveryorder_20211108.datas.StoreData
 
@@ -23,6 +25,9 @@ class PizzaStoreAdapater(
         val row = tempRow!!
 
         val data = mList[position]
+
+        val imgLogo = row.findViewById<ImageView>(R.id.imgLogo)
+        val txtStoreName = row.findViewById<TextView>(R.id.txtStoreName)
 
         return row
 
