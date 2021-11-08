@@ -2,6 +2,7 @@ package com.clearsky77.deliveryorder_20211108
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.clearsky77.deliveryorder_20211108.adapters.MainViewPagerAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

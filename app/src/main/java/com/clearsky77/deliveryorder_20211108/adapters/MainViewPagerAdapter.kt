@@ -1,4 +1,4 @@
-package com.clearsky77.deliveryorder_20211108
+package com.clearsky77.deliveryorder_20211108.adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
