@@ -4,7 +4,7 @@ import java.io.Serializable
 
 class StoreData(
     val name: String,
-    val phonNum: String,
+    val phoneNum: String,
     val logoURL: String
 ) : Serializable{
 
